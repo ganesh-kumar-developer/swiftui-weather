@@ -14,6 +14,7 @@
 		756320502A8338BA00FE5D59 /* swiftui_weatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7563204F2A8338BA00FE5D59 /* swiftui_weatherTests.swift */; };
 		7563205A2A8338BA00FE5D59 /* swiftui_weatherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756320592A8338BA00FE5D59 /* swiftui_weatherUITests.swift */; };
 		7563205C2A8338BA00FE5D59 /* swiftui_weatherUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7563205B2A8338BA00FE5D59 /* swiftui_weatherUITestsLaunchTests.swift */; };
+		75EF3C7F2A840BB70074C2AC /* DayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EF3C7E2A840BB70074C2AC /* DayView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		756320552A8338BA00FE5D59 /* swiftui-weatherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swiftui-weatherUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		756320592A8338BA00FE5D59 /* swiftui_weatherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftui_weatherUITests.swift; sourceTree = "<group>"; };
 		7563205B2A8338BA00FE5D59 /* swiftui_weatherUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftui_weatherUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		75EF3C7E2A840BB70074C2AC /* DayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +96,12 @@
 		7563203D2A8338AE00FE5D59 /* swiftui-weather */ = {
 			isa = PBXGroup;
 			children = (
+				75EF3C802A840BD80074C2AC /* view */,
 				7563203E2A8338AE00FE5D59 /* swiftui_weatherApp.swift */,
 				756320402A8338AE00FE5D59 /* ContentView.swift */,
 				756320422A8338B900FE5D59 /* Assets.xcassets */,
 				756320442A8338B900FE5D59 /* Preview Content */,
+				75EF3C7E2A840BB70074C2AC /* DayView.swift */,
 			);
 			path = "swiftui-weather";
 			sourceTree = "<group>";
@@ -125,6 +129,13 @@
 				7563205B2A8338BA00FE5D59 /* swiftui_weatherUITestsLaunchTests.swift */,
 			);
 			path = "swiftui-weatherUITests";
+			sourceTree = "<group>";
+		};
+		75EF3C802A840BD80074C2AC /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				756320412A8338AE00FE5D59 /* ContentView.swift in Sources */,
+				75EF3C7F2A840BB70074C2AC /* DayView.swift in Sources */,
 				7563203F2A8338AE00FE5D59 /* swiftui_weatherApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
